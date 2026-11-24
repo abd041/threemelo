@@ -1,4 +1,10 @@
+import '@fontsource-variable/inter';
+import '@fontsource-variable/space-grotesk';
+import '@fontsource-variable/jetbrains-mono';
 import Script from 'next/script';
+import SiteHeader from '../components/SiteHeader.jsx';
+import Brand from '../components/Brand.jsx';
+import {homeCategories,categoryId} from '../lib/home.mjs';
 import './globals.css';
 import SiteAnalytics, {CookieSettingsButton} from '../components/SiteAnalytics.jsx';
 import {CONSENT_BOOTSTRAP, GTM_ID} from '../lib/analytics.mjs';
@@ -25,12 +31,12 @@ export const metadata = {
   title: {default: 'ThreeMelo — Free Online 3D Tools', template: '%s | ThreeMelo'},
   description: 'Create, visualize and export 3D designs directly in your browser. Free online 3D tools with no account required.',
   icons: {
-    icon: [{url: '/icon.png', sizes: '512x512', type: 'image/png'}],
+    icon: [{url: '/brand-mark.svg', type: 'image/svg+xml'}],
     apple: [{url: '/apple-icon.png', sizes: '180x180', type: 'image/png'}],
   },
   openGraph: {
     siteName: 'ThreeMelo',
-    images: [{url: '/logo.png', width: 970, height: 266, alt: 'ThreeMelo'}],
+    images: [{url: '/studio-social.png', width: 1200, height: 630, alt: 'ThreeMelo ? browser-based 3D studio'}],
   },
 };
 
@@ -40,7 +46,7 @@ const organization = {
   '@id': 'https://threemelo.com/#organization',
   name: 'ThreeMelo',
   url: 'https://threemelo.com/',
-  logo: 'https://threemelo.com/logo.png',
+  logo: 'https://threemelo.com/brand-mark.svg',
   email: SUPPORT_EMAIL,
   contactPoint: {
     '@type': 'ContactPoint',
@@ -53,37 +59,20 @@ const organization = {
 
 export default function Layout({children}) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" suppressHydrationWarning>
+      <body><script dangerouslySetInnerHTML={{__html: `try{document.documentElement.dataset.theme=localStorage.getItem('tm-theme')==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}`}} />
         <Script id="threemelo-consent" strategy="beforeInteractive" dangerouslySetInnerHTML={{__html: CONSENT_BOOTSTRAP}} />
         {process.env.NODE_ENV === 'production' && <Script id="threemelo-gtm" strategy="afterInteractive" dangerouslySetInnerHTML={{__html: GTM_LOADER}} />}
         {process.env.NODE_ENV === 'production' && NOSCRIPT_CONSENT_VERIFIED && <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style={{display: 'none', visibility: 'hidden'}} title="Google Tag Manager" /></noscript>}
         <a className="skip-link" href="#main-content">Skip to content</a>
-        <header className="nav">
-          <a className="brand" href="/"><img src="/logo.png" width="970" height="266" alt="ThreeMelo" /></a>
-          <nav>
-            <a href="/tools/">Tools</a>
-            <a href="/about/">About</a>
-            <a href="/contact/">Contact</a>
-          </nav>
-          <a className="button small" href="/3d-text-generator/">Open studio</a>
-        </header>
+        <SiteHeader/>
         <main id="main-content">{children}</main>
-        <footer>
-          <a className="brand" href="/"><img src="/logo.png" width="970" height="266" alt="ThreeMelo" /></a>
-          <p>Free browser-based 3D tools. <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></p>
-          <nav>
-            <a href="/tools/">Tools</a>
-            <a href="/about/">About</a>
-            <a href="/contact/">Contact</a>
-            <a href="/privacy/">Privacy</a>
-            <a href="/terms/">Terms</a>
-            <CookieSettingsButton />
-          </nav>
-        </footer>
+        <footer className="studio-footer"><div><a href="/" aria-label="ThreeMelo home"><Brand/></a><p>A little less setup.<br/>A lot more possibility.</p><p>Free 3D tools, built for your browser.</p></div><nav aria-label="Tool categories"><h2>Explore</h2>{homeCategories.map(c=><a key={c} href={`/tools/#${categoryId(c)}`}>{c}</a>)}</nav><nav aria-label="Selected tools"><h2>Start creating</h2><a href="/3d-model-viewer/">3D Model Viewer</a><a href="/3d-text-generator/">3D Text Generator</a><a href="/3d-floor-plan-generator/">Floor Plan Generator</a><a href="/stl-viewer/">STL Viewer</a></nav><nav aria-label="Company and policies"><h2>ThreeMelo</h2><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Use</a><CookieSettingsButton/></nav><div className="footer-bottom"><span>Made for curious minds and creative work.</span><a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></div></footer>
         <SiteAnalytics />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(organization)}} />
       </body>
     </html>
   );
 }
+
+import './studio.css';

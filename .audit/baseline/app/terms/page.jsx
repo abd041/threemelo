@@ -1,0 +1,4 @@
+import {pageMetadata} from '../../lib/seo.mjs';
+import {SUPPORT_EMAIL} from '../../lib/site.mjs';
+export const metadata = pageMetadata('/terms/', {title:'Terms of Use',description:"Read the terms for using ThreeMelo\u2019s free browser-based 3D tools and exported files.",alternates:{canonical:'/terms/'}});
+export default function Page(){return <article className="wrap prose"><h1>Terms of use</h1><p>Tools are provided as-is. You are responsible for the rights to content you create and for validating exported models before manufacturing or other use. Availability and compatibility are not guaranteed.</p><h2>Questions about these terms</h2><p>Questions about these terms can be sent to <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a> from the <a href="/contact/">contact page</a>. Choose Privacy and Legal, then send the prepared draft from your own email application.</p></article>}

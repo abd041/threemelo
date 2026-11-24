@@ -1,0 +1,5 @@
+﻿import fs from 'node:fs';
+import {tools} from './lib/catalog.mjs';
+const changes={'3d-graphing-calculator':{outputFormats:['PNG']},'3d-vase-generator':{outputFormats:['STL']},'lithophane-maker':{outputFormats:['STL']},'3d-cookie-cutter-generator':{inputFormats:['SVG'],outputFormats:['STL']},'3d-keychain-generator':{outputFormats:['STL','GLB','PNG']},'3d-nameplate-generator':{outputFormats:['STL','GLB','PNG']},'3d-text-generator':{inputFormats:['JSON'],outputFormats:['PNG','JPG','GLB','OBJ','STL','JSON']},'3d-printing-cost-calculator':{outputFormats:['CSV']},'stl-volume-calculator':{outputFormats:['CSV']}};
+for(const t of tools){Object.assign(t,changes[t.slug]);if(['Product mockups'].includes(t.category)&&t.slug!=='book-cover-mockup-generator')t.outputFormats=['PNG','GLB'];if(t.inputFormats.includes('JPG'))t.inputFormats.push('WebP');if(['obj-viewer','3d-model-viewer'].includes(t.slug))t.inputFormats.push('BMP');}
+let s=fs.readFileSync('lib/catalog.mjs','utf8');s=s.replace(/export const toolRegistry = [\s\S]*?;\n\/\/ New entries/,`export const toolRegistry = ${JSON.stringify(tools,null,2)};\n// New entries`);fs.writeFileSync('lib/catalog.mjs',s);

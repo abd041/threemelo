@@ -1,0 +1,9 @@
+.scene {
+  perspective: 700px;
+}
+
+.object {
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  transform: translate3d(0px, 0px, 0px) rotateX(25deg) rotateY(-30deg) rotateZ(0deg) scale3d(1, 1, 1);
+}

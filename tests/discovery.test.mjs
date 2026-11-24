@@ -1,0 +1,11 @@
+﻿import test from 'node:test';
+import assert from 'node:assert/strict';
+import {tools} from '../lib/catalog.mjs';
+import {filterTools,categoryId,homeCategories} from '../lib/home.mjs';
+import {cleanSlugs,readList,writeList,toggleSlug,rememberSlug} from '../lib/preferences.mjs';
+test('registry paths, formats and relationships are complete and refer only to published tools',()=>{for(const t of tools){assert.equal(t.canonicalPath,`/${t.slug}/`);assert.ok(Array.isArray(t.inputFormats)&&Array.isArray(t.outputFormats));assert.ok(t.relatedSlugs.length>0&&t.relatedSlugs.length<=6);assert.equal(new Set(t.relatedSlugs).size,t.relatedSlugs.length);for(const s of t.relatedSlugs){assert.notEqual(s,t.slug);assert.ok(tools.some(x=>x.slug===s));}}});
+test('task aliases and extensions discover the right tools',()=>{for(const [q,slug] of [['floor','3d-floor-plan-generator'],['.stl','stl-viewer'],['book mockup','book-cover-mockup-generator'],['printing cost','3d-printing-cost-calculator'],['photo to stl','lithophane-maker']])assert.ok(filterTools(q).some(t=>t.slug===slug));});
+test('format and category filters compose without false formats',()=>{assert.ok(filterTools('','File converters','STL').length);assert.ok(filterTools('','File converters','STL').every(t=>[...t.inputFormats,...t.outputFormats].includes('STL')));assert.equal(filterTools('graphing','All tools','STL').length,0);assert.equal(new Set(homeCategories.map(categoryId)).size,6);});
+test('favorites toggle, reject corrupt storage and unknown tools',()=>{const slug=tools[0].slug;assert.deepEqual(toggleSlug([],slug),[slug]);assert.deepEqual(toggleSlug([slug],slug),[]);assert.deepEqual(cleanSlugs([slug,slug,'unpublished',null]),[slug]);assert.deepEqual(readList('key',{getItem:()=>'{broken'}),[]);assert.deepEqual(readList('key',{getItem:()=>{throw Error('blocked');}}),[]);assert.deepEqual(writeList('key',[slug],{setItem:()=>{throw Error('blocked');}}),[slug]);});
+test('recent tools are unique, ordered and capped at six',()=>{const list=tools.slice(0,9).map(t=>t.slug);assert.equal(rememberSlug(list,list[5]).length,6);assert.equal(rememberSlug(list,list[5])[0],list[5]);assert.equal(new Set(rememberSlug(list,list[5])).size,6);});
+

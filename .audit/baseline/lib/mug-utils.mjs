@@ -1,0 +1,4 @@
+export const mugDefaults={radius:4,height:9.5,handle:1,color:'#ffffff',inside:'#ffffff',background:'#171824',light:3,finish:'glossy',transparent:false,spin:false,shadow:true,wrap:270,offset:0};
+export function mugDimensions(s){if(!Number.isFinite(s.radius)||s.radius<2||s.radius>7||!Number.isFinite(s.height)||s.height<5||s.height>16||!Number.isFinite(s.handle)||s.handle<.7||s.handle>1.4)throw Error('Invalid mug dimensions');const k=3/Math.max(s.height,s.radius*2);return {r:s.radius*k,h:s.height*k,wall:.25*k,handle:s.handle};}
+export function artworkRatio(s){mugDimensions(s);if(!Number.isFinite(s.wrap)||s.wrap<30||s.wrap>360)throw Error('Wrap must be 30–360 degrees');return 2*Math.PI*s.radius*s.wrap/360/(s.height*.8);}
+export const mugPresets={'Classic 11 oz style':[4,9.5,1],'Tall mug':[4,12,1.15],'Wide mug':[5,8,1.1],'Espresso style':[2.8,5.5,.8]};

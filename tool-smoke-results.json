@@ -1,0 +1,317 @@
+[
+  {
+    "slug": "3d-floor-plan-generator",
+    "export": {
+      "name": "floor-plan.json",
+      "bytes": 621,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 0,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-room-planner",
+    "export": {
+      "name": "threemelo-room.png",
+      "bytes": 18162,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-css-transform-generator",
+    "export": {
+      "name": "threemelo-transform.css",
+      "bytes": 209,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 0,
+    "status": "pass"
+  },
+  {
+    "slug": "gcode-viewer",
+    "export": "No export offered",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-graphing-calculator",
+    "export": {
+      "name": "threemelo-graph.png",
+      "bytes": 105079,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-vase-generator",
+    "export": {
+      "name": "threemelo-vase.stl",
+      "bytes": 1254484,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "lithophane-maker",
+    "export": {
+      "name": "lithophane.stl",
+      "bytes": 4499884,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 2,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-cookie-cutter-generator",
+    "export": {
+      "name": "cookie-cutter-circle.stl",
+      "bytes": 67284,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-nameplate-generator",
+    "export": {
+      "name": "threemelo-nameplate.stl",
+      "bytes": 81884,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-keychain-generator",
+    "export": {
+      "name": "threemelo-keychain.stl",
+      "bytes": 115084,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-text-generator",
+    "export": {
+      "name": "threemelo-text.png",
+      "bytes": 146442,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-logo-generator",
+    "export": {
+      "name": "threemelo-logo.png",
+      "bytes": 117439,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "book-cover-mockup-generator",
+    "export": {
+      "name": "threemelo-book-mockup.png",
+      "bytes": 340764,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "box-mockup-generator",
+    "export": {
+      "name": "threemelo-box-mockup.png",
+      "bytes": 320930,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "bottle-mockup-generator",
+    "export": {
+      "name": "threemelo-bottle-mockup.png",
+      "bytes": 212525,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "t-shirt-mockup-generator",
+    "export": {
+      "name": "threemelo-t-shirt-mockup.png",
+      "bytes": 117470,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "mug-mockup-generator",
+    "export": {
+      "name": "threemelo-mug-mockup.png",
+      "bytes": 285328,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-model-viewer",
+    "export": {
+      "name": "Sample knot.png",
+      "bytes": 370138,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "3d-printing-cost-calculator",
+    "export": {
+      "name": "3d-print-cost.csv",
+      "bytes": 290,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 0,
+    "status": "pass"
+  },
+  {
+    "slug": "stl-volume-calculator",
+    "export": "No export offered",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "stl-viewer",
+    "export": {
+      "name": "Sample cube.png",
+      "bytes": 140231,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "obj-viewer",
+    "export": {
+      "name": "Sample knot.png",
+      "bytes": 370138,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "glb-viewer",
+    "export": {
+      "name": "Sample knot.png",
+      "bytes": 370138,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "gltf-viewer",
+    "export": {
+      "name": "Sample knot.png",
+      "bytes": 370138,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "fbx-viewer",
+    "export": {
+      "name": "Sample knot.png",
+      "bytes": 370138,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "glb-to-stl",
+    "export": {
+      "name": "sample.stl",
+      "bytes": 115284,
+      "valid": true
+    },
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "stl-to-obj",
+    "status": "fail",
+    "error": "page.waitForEvent: Timeout 20000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================"
+  },
+  {
+    "slug": "svg-to-stl",
+    "export": {
+      "name": "Sample tag.stl",
+      "bytes": 1684,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "obj-to-stl",
+    "status": "fail",
+    "error": "page.waitForEvent: Timeout 20000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================"
+  },
+  {
+    "slug": "360-image-viewer",
+    "export": {
+      "name": "threemelo-panorama.png",
+      "bytes": 625308,
+      "valid": true
+    },
+    "reset": "clicked",
+    "canvas": 1,
+    "status": "pass"
+  },
+  {
+    "slug": "stl-upload-validation",
+    "validEnabled": true,
+    "invalidMessage": [
+      "File is too short to be an STL.",
+      ""
+    ]
+  }
+]

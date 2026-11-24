@@ -1,0 +1,41 @@
+{
+  "height": 2.7,
+  "rooms": [
+    {
+      "id": "living",
+      "name": "Living room",
+      "x": 0,
+      "z": 0,
+      "w": 5,
+      "d": 4,
+      "color": "#b8a58a"
+    },
+    {
+      "id": "bed",
+      "name": "Bedroom",
+      "x": 5,
+      "z": 0,
+      "w": 3,
+      "d": 4,
+      "color": "#a6b7c9"
+    }
+  ],
+  "openings": [
+    {
+      "id": "entry",
+      "room": "living",
+      "side": "south",
+      "kind": "door",
+      "offset": 1,
+      "width": 0.9
+    },
+    {
+      "id": "window",
+      "room": "bed",
+      "side": "north",
+      "kind": "window",
+      "offset": 1,
+      "width": 1.2
+    }
+  ]
+}

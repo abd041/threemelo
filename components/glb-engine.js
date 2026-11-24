@@ -1,7 +1,7 @@
 import {STLLoader} from 'three/addons/loaders/STLLoader.js';
 import {OBJLoader} from 'three/addons/loaders/OBJLoader.js';
 import {MTLLoader} from 'three/addons/loaders/MTLLoader.js';
-import {inspectSTL} from '../lib/mesh-metrics.mjs';
+import {inspectSTL,meshMetrics} from '../lib/mesh-metrics.mjs';
 import {validateOBJ,localAssetKey} from '../lib/viewer-utils.mjs';
 import {FBXLoader} from 'three/addons/loaders/FBXLoader.js';
 import {prepareFBX,textureKey} from '../lib/fbx-utils.mjs';
@@ -11,7 +11,6 @@ import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {OBJExporter} from 'three/addons/exporters/OBJExporter.js';
 import {STLExporter} from 'three/addons/exporters/STLExporter.js';
 import {GLTFExporter} from 'three/addons/exporters/GLTFExporter.js';
-import {meshMetrics} from '../lib/mesh-metrics.mjs';
 import {validateGLB} from '../lib/glb-utils.mjs';
 import {prepareGLTF} from '../lib/gltf-utils.mjs';
 export function createGLBViewer(host,onMeasure){

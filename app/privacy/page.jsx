@@ -19,7 +19,7 @@ export default function Page() {
       <h2>Your choice</h2>
       <p>The choice is stored in this browser under the local storage key threemelo-consent. It records only whether analytics storage is allowed. Use Cookie preferences in the footer to change it, or choose Reject non-essential when the banner appears. Rejecting keeps analytics storage denied and stops new site analytics events. Withdrawing consent does not erase previously collected data. If browser storage is unavailable, your choice lasts for the current page only.</p>
       <p>With JavaScript disabled, tracking stays off: this static website cannot verify consent, so the Google Tag Manager noscript fallback is withheld. Measurement tags configured in the container must require analytics consent. After consent, Google requests may expose ordinary connection information such as your IP address to Google; uploaded files and form content are never included in site events. Hosting providers may still process ordinary request logs.</p>
-      <h2>Accounts and contact</h2>
+      <h2>Local preferences</h2><p>Theme choice, favorite tools and up to six recently opened tools are stored on your device using tm-theme, tm-favorites and tm-recent. They contain tool identifiers, not uploaded files or search queries. Clear this site's browser data to remove them. If storage is blocked, preferences may last only for the current page.</p><h2>Accounts and contact</h2>
       <p>There are no user accounts. The contact form does not store or transmit the message. It opens a draft to <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a> in your email application. Use the <a href="/contact/">contact page</a> and choose Privacy and Legal for privacy requests.</p>
     </article>
   );

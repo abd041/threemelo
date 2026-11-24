@@ -1,0 +1,7 @@
+﻿import http from 'node:http';
+import fs from 'node:fs';
+import path from 'node:path';
+import {gzipSync} from 'node:zlib';
+const root=path.resolve(process.argv[2]||'out'),port=Number(process.argv[3]||4175);
+const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.xml':'application/xml','.svg':'image/svg+xml','.png':'image/png','.woff2':'font/woff2','.txt':'text/plain'};
+http.createServer((req,res)=>{let name;try{name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);res.end();return;}let file=path.resolve(root,'.'+name);if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403);res.end();return;}if(fs.existsSync(file)&&fs.statSync(file).isDirectory()){if(!name.endsWith('/')){res.writeHead(308,{Location:name+'/'});res.end();return;}file=path.join(file,'index.html');}const found=fs.existsSync(file)&&fs.statSync(file).isFile();if(!found)file=path.join(root,'404.html');let data=fs.existsSync(file)?fs.readFileSync(file):Buffer.from('Not found');const headers={'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-cache'};if(/gzip/.test(req.headers['accept-encoding']||'')){data=gzipSync(data);headers['Content-Encoding']='gzip';headers.Vary='Accept-Encoding';}headers['Content-Length']=data.length;res.writeHead(found?200:404,headers);res.end(data);}).listen(port,'127.0.0.1',()=>console.log(`Audit server http://127.0.0.1:${port}, gzip enabled`));

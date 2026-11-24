@@ -1,0 +1,2 @@
+﻿import {chromium} from '@playwright/test';
+const browser=await chromium.launch({executablePath:'C:/Users/HP/AppData/Local/ms-playwright/chromium-1223/chrome-win64/chrome.exe',headless:true,args:['--no-sandbox']});const page=await browser.newPage({viewport:{width:1440,height:1000}});await page.goto('http://localhost:4173');await page.screenshot({path:'homepage-desktop.png',fullPage:true});console.log(await page.title());console.log(await page.locator('body').evaluate(e=>({width:e.scrollWidth,viewport:innerWidth})));await browser.close();

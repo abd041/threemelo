@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {lithophaneMesh} from '../lib/lithophane.mjs';import {meshMetrics} from '../lib/mesh-metrics.mjs';
+const o={width:100,height:50,min:1,max:3,curve:0,invert:false};
+const mesh=(g=[0,255,128,64],opts={})=>lithophaneMesh(g,2,2,{...o,...opts});
+test('flat closed mesh',()=>{const s=meshMetrics(mesh());assert.equal(s.closed,true);assert.equal(s.triangles,12);assert.deepEqual(s.dimensions,[100,50,3]);});
+test('uniform white thickness and volume',()=>{const s=meshMetrics(mesh([255,255,255,255]));assert.equal(s.volume,5000);});
+test('uniform black thickness and volume',()=>assert.equal(meshMetrics(mesh([0,0,0,0])).volume,15000));
+test('invert',()=>assert.equal(meshMetrics(mesh([0,0,0,0],{invert:true})).volume,5000));
+test('curved mesh closed',()=>assert.equal(meshMetrics(lithophaneMesh(new Uint8Array(100),10,10,{...o,curve:120})).closed,true));
+test('reject bad thickness',()=>assert.throws(()=>mesh(undefined,{min:4}))); 
+test('reject invalid grid',()=>assert.throws(()=>lithophaneMesh([0],1,1,o)));
+test('reject invalid luminance',()=>assert.throws(()=>mesh([0,256,0,0])));

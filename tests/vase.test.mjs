@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {vaseMesh,defaults} from '../lib/vase.mjs';import {meshMetrics} from '../lib/mesh-metrics.mjs';
+for(const profile of ['classic','straight','tapered','bulb'])test(`${profile} closed mesh`,()=>{const s=meshMetrics(vaseMesh({...defaults,profile,twist:180}));assert.equal(s.closed,true);assert.equal(s.degenerate,0);assert.equal(s.dimensions[1],120);assert.ok(s.volume>0);});
+test('straight cylinder volume approximates analytic shell',()=>{const o={...defaults,profile:'straight',ripple:0};const s=meshMetrics(vaseMesh(o));const expected=Math.PI*(40**2*120-38**2*117);assert.ok(Math.abs(s.volume/expected-1)<.001);});
+test('reject invalid settings',()=>{for(const o of [{wall:0},{height:NaN},{profile:'unknown'},{ribs:3.5},{twist:181}])assert.throws(()=>vaseMesh({...defaults,...o}));});
+test('thicker wall increases volume',()=>assert.ok(meshMetrics(vaseMesh({...defaults,wall:4})).volume>meshMetrics(vaseMesh(defaults)).volume));

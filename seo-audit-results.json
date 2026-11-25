@@ -11,7 +11,7 @@
   "robots_valid": true,
   "xml_valid": true,
   "xml_namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
-  "rendering_assets_checked": 50,
+  "rendering_assets_checked": 54,
   "errors": [],
   "pages": [
     {
@@ -30,7 +30,7 @@
       "description": [
         "Explore 30 free online 3D tools to view, convert and create 3D models, mockups and printable designs. No sign-up or software installation required."
       ],
-      "main_text_characters": 9608
+      "main_text_characters": 9650
     },
     {
       "url": "https://threemelo.com/tools/",
@@ -48,7 +48,7 @@
       "description": [
         "Browse 30 free browser-based 3D viewers, converters, mockup generators, printing utilities and design planners."
       ],
-      "main_text_characters": 4035
+      "main_text_characters": 4064
     },
     {
       "url": "https://threemelo.com/about/",
@@ -134,11 +134,11 @@
       "robots": [
         "index, follow"
       ],
-      "title": "3D Floor Plan Generator – Free Online Floor Plan Maker | ThreeMelo",
+      "title": "Free 3D Floor Plan Generator – Online Floor Plan Maker",
       "description": [
-        "Create a multi-room floor plan with editable dimensions, doors, windows, interactive 3D preview and SVG or JSON export. Free and private."
+        "Create free 2D and 3D floor plans online. Draw rooms, add furniture, doors and windows, customize dimensions and export your design without signing up."
       ],
-      "main_text_characters": 2064
+      "main_text_characters": 11523
     },
     {
       "url": "https://threemelo.com/3d-room-planner/",
@@ -156,7 +156,7 @@
       "description": [
         "Plan a room in 3D with custom dimensions, furniture placement, wall and floor colors. Save your layout locally or download a PNG."
       ],
-      "main_text_characters": 2039
+      "main_text_characters": 2242
     },
     {
       "url": "https://threemelo.com/3d-css-transform-generator/",
@@ -444,7 +444,7 @@
       "description": [
         "View STL, OBJ, GLB, glTF and FBX models online. Inspect dimensions, rotate, measure and export static 3D meshes locally."
       ],
-      "main_text_characters": 3100
+      "main_text_characters": 3355
     },
     {
       "url": "https://threemelo.com/3d-printing-cost-calculator/",

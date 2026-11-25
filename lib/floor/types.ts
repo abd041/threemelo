@@ -1,0 +1,9 @@
+export type Point = {x: number; z: number};
+export type Unit = 'ft-in' | 'ft' | 'in' | 'm' | 'cm';
+export type Entity = {id: string; name: string; hidden: boolean; locked: boolean};
+export type Room = Entity & {level: string; points: Point[]; height: number; thickness: number; color: string; wallColor: string; floorMaterial: string; wallMaterial: string; roomType: string};
+export type Wall = Entity & {level: string; a: Point; b: Point; height: number; thickness: number; color: string; material: string};
+export type Opening = Entity & {host: string; edge: number; kind: 'door' | 'window'; style: string; offset: number; width: number; height: number; sill: number; flip: boolean; frame: number; color: string};
+export type Furniture = Entity & {level: string; type: string; x: number; z: number; width: number; depth: number; height: number; rotation: number; color: string; material: string};
+export type Project = {schemaVersion: 2; id: string; name: string; createdAt: string; updatedAt: string; units: Unit; levels: {id: string; name: string; elevation: number}[]; rooms: Room[]; walls: Wall[]; openings: Opening[]; furniture: Furniture[]; preferences: {grid: boolean; snap: boolean; gridSize: number; dimensions: boolean}; camera: {preset: string; style: string}; materials: {id: string; color: string; roughness: number}[]};
+export type DerivedWall = {a: Point; b: Point; length: number; height: number; thickness: number; color: string; material: string; owners: string[]; openings: (Opening & {offset: number})[]};

@@ -1,0 +1,94 @@
+{
+  "checks": [
+    "Create rooms, exact imperial dimensions, openings and 3D",
+    "One drag produces one undo step; redo restores it",
+    "Template search, furniture movement, material and reload",
+    "Custom polygon and resize keep correct area",
+    "Malformed import is rejected and current project preserved",
+    "All five client-side export files validate",
+    "3D view modes, PNG and repeated mode switching",
+    "Keyboard shortcuts and form typing do not conflict",
+    "Responsive widths and desktop/mobile screenshots",
+    "Light and dark axe accessibility audits",
+    "Fullscreen enters and exits",
+    "Actual touch drag and pinch on mobile context",
+    "WebGL disabled retains a working 2D editor",
+    "Storage denial produces truthful recovery messaging",
+    "Initial HTML metadata, schema and all page internal links"
+  ],
+  "errors": [],
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 414,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "violations": []
+    }
+  ],
+  "exports": [
+    {
+      "format": "png",
+      "bytes": 187372
+    },
+    {
+      "format": "svg",
+      "bytes": 9463
+    },
+    {
+      "format": "pdf",
+      "bytes": 4790
+    },
+    {
+      "format": "glb",
+      "bytes": 26748,
+      "meshes": 82
+    },
+    {
+      "format": "json",
+      "bytes": 9260
+    }
+  ],
+  "browsers": [
+    {
+      "name": "Chromium",
+      "version": "148.0.7778.96"
+    }
+  ],
+  "internalLinks": 41
+}

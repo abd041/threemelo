@@ -1,0 +1,52 @@
+{
+  "source": "Lighthouse network requests; script resources loaded in the 2D initial view",
+  "label": "before",
+  "scores": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "lcp": 2261.424,
+  "cls": 0.000402,
+  "tbt": 1.5,
+  "scriptResourceBytes": 409534,
+  "scriptTransferBytes": 123184,
+  "scripts": [
+    {
+      "url": "http://127.0.0.1:4175/_next/static/chunks/webpack-6f7fa0e854b50c11.js",
+      "resourceSize": 4464,
+      "transferSize": 2701
+    },
+    {
+      "url": "http://127.0.0.1:4175/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+      "resourceSize": 173020,
+      "transferSize": 54588
+    },
+    {
+      "url": "http://127.0.0.1:4175/_next/static/chunks/1255-925cc58e720b4caf.js",
+      "resourceSize": 174421,
+      "transferSize": 47061
+    },
+    {
+      "url": "http://127.0.0.1:4175/_next/static/chunks/main-app-7fb169874ff740af.js",
+      "resourceSize": 560,
+      "transferSize": 454
+    },
+    {
+      "url": "http://127.0.0.1:4175/_next/static/chunks/8123-8a1d5ffaca6de439.js",
+      "resourceSize": 14595,
+      "transferSize": 3131
+    },
+    {
+      "url": "http://127.0.0.1:4175/_next/static/chunks/app/layout-117f611c495197cf.js",
+      "resourceSize": 24311,
+      "transferSize": 8401
+    },
+    {
+      "url": "http://127.0.0.1:4175/_next/static/chunks/app/3d-floor-plan-generator/page-970aa393011fec1c.js",
+      "resourceSize": 18163,
+      "transferSize": 6848
+    }
+  ]
+}

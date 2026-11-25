@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 2,
+  "id": "04b5b9b4-1981-4806-9eca-8496c006f6e1",
+  "name": "Two-bedroom apartment",
+  "createdAt": "2026-11-25T06:03:59.721Z",
+  "updatedAt": "2026-11-25T06:03:59.775Z",
+  "units": "ft-in",
+  "levels": [
+    {
+      "id": "ground",
+      "name": "Ground floor",
+      "elevation": 0
+    }
+  ],
+  "rooms": [
+    {
+      "id": "5fd88c4e-5033-40ba-bce5-56686a97f9d6",
+      "name": "Living room",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "points": [
+        {
+          "x": 0,
+          "z": 0
+        },
+        {
+          "x": 5,
+          "z": 0
+        },
+        {
+          "x": 5,
+          "z": 4
+        },
+        {
+          "x": 0,
+          "z": 4
+        }
+      ],
+      "height": 2.7,
+      "thickness": 0.15,
+      "color": "#d4bc95",
+      "wallColor": "#f1f0ea",
+      "floorMaterial": "light-wood",
+      "wallMaterial": "white-paint",
+      "roomType": "Living"
+    },
+    {
+      "id": "2e4907f0-f1a0-4dc8-b163-776a4f2d4120",
+      "name": "Bedroom 1",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "points": [
+        {
+          "x": 5,
+          "z": 0
+        },
+        {
+          "x": 8.5,
+          "z": 0
+        },
+        {
+          "x": 8.5,
+          "z": 4
+        },
+        {
+          "x": 5,
+          "z": 4
+        }
+      ],
+      "height": 2.7,
+      "thickness": 0.15,
+      "color": "#d4bc95",
+      "wallColor": "#f1f0ea",
+      "floorMaterial": "light-wood",
+      "wallMaterial": "white-paint",
+      "roomType": "Living"
+    },
+    {
+      "id": "5731ad6e-d6dc-414f-a18b-232dfab9cc5d",
+      "name": "Bedroom 2",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "points": [
+        {
+          "x": 5,
+          "z": 4
+        },
+        {
+          "x": 8.5,
+          "z": 4
+        },
+        {
+          "x": 8.5,
+          "z": 7.5
+        },
+        {
+          "x": 5,
+          "z": 7.5
+        }
+      ],
+      "height": 2.7,
+      "thickness": 0.15,
+      "color": "#d4bc95",
+      "wallColor": "#f1f0ea",
+      "floorMaterial": "light-wood",
+      "wallMaterial": "white-paint",
+      "roomType": "Living"
+    },
+    {
+      "id": "6cc9b06c-9a26-410d-a2a3-b86d310de264",
+      "name": "Kitchen",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "points": [
+        {
+          "x": 0,
+          "z": 4
+        },
+        {
+          "x": 3,
+          "z": 4
+        },
+        {
+          "x": 3,
+          "z": 7.5
+        },
+        {
+          "x": 0,
+          "z": 7.5
+        }
+      ],
+      "height": 2.7,
+      "thickness": 0.15,
+      "color": "#d4bc95",
+      "wallColor": "#f1f0ea",
+      "floorMaterial": "light-wood",
+      "wallMaterial": "white-paint",
+      "roomType": "Living"
+    },
+    {
+      "id": "764e79ac-6083-4601-b023-aa20baa6b168",
+      "name": "Bathroom",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "points": [
+        {
+          "x": 3,
+          "z": 4
+        },
+        {
+          "x": 5,
+          "z": 4
+        },
+        {
+          "x": 5,
+          "z": 7.5
+        },
+        {
+          "x": 3,
+          "z": 7.5
+        }
+      ],
+      "height": 2.7,
+      "thickness": 0.15,
+      "color": "#d4bc95",
+      "wallColor": "#f1f0ea",
+      "floorMaterial": "light-wood",
+      "wallMaterial": "white-paint",
+      "roomType": "Living"
+    }
+  ],
+  "walls": [],
+  "openings": [
+    {
+      "id": "828268d9-d6db-4164-9c26-fba7dfe6f5f4",
+      "name": "Entrance",
+      "hidden": false,
+      "locked": false,
+      "host": "5fd88c4e-5033-40ba-bce5-56686a97f9d6",
+      "edge": 3,
+      "kind": "door",
+      "style": "Front entrance",
+      "offset": 0.3,
+      "width": 0.9,
+      "height": 2.05,
+      "sill": 0,
+      "flip": false,
+      "frame": 0.05,
+      "color": "#846d56"
+    },
+    {
+      "id": "56baa799-3148-449a-a12d-670ffcfad612",
+      "name": "Window",
+      "hidden": false,
+      "locked": false,
+      "host": "5fd88c4e-5033-40ba-bce5-56686a97f9d6",
+      "edge": 0,
+      "kind": "window",
+      "style": "Standard window",
+      "offset": 1.2,
+      "width": 1.2,
+      "height": 1.2,
+      "sill": 0.9,
+      "flip": false,
+      "frame": 0.05,
+      "color": "#e5e7eb"
+    },
+    {
+      "id": "28885f83-2c54-4966-a0b9-bf81f95dbda5",
+      "name": "Interior door",
+      "hidden": false,
+      "locked": false,
+      "host": "2e4907f0-f1a0-4dc8-b163-776a4f2d4120",
+      "edge": 3,
+      "kind": "door",
+      "style": "Interior door",
+      "offset": 3,
+      "width": 0.8,
+      "height": 2.05,
+      "sill": 0,
+      "flip": false,
+      "frame": 0.05,
+      "color": "#c4ac8c"
+    },
+    {
+      "id": "df4162b2-5d84-43d9-bf41-d3dc6fc9ad53",
+      "name": "Interior door",
+      "hidden": false,
+      "locked": false,
+      "host": "5731ad6e-d6dc-414f-a18b-232dfab9cc5d",
+      "edge": 0,
+      "kind": "door",
+      "style": "Interior door",
+      "offset": 0.2,
+      "width": 0.8,
+      "height": 2.05,
+      "sill": 0,
+      "flip": false,
+      "frame": 0.05,
+      "color": "#c4ac8c"
+    },
+    {
+      "id": "81f598db-f8d7-4193-b27e-6a1cff89ffc7",
+      "name": "Interior door",
+      "hidden": false,
+      "locked": false,
+      "host": "6cc9b06c-9a26-410d-a2a3-b86d310de264",
+      "edge": 0,
+      "kind": "door",
+      "style": "Interior door",
+      "offset": 0.2,
+      "width": 0.8,
+      "height": 2.05,
+      "sill": 0,
+      "flip": false,
+      "frame": 0.05,
+      "color": "#c4ac8c"
+    },
+    {
+      "id": "9c1ca335-3fdb-41c0-b0ca-009c1383e5ee",
+      "name": "Interior door",
+      "hidden": false,
+      "locked": false,
+      "host": "764e79ac-6083-4601-b023-aa20baa6b168",
+      "edge": 0,
+      "kind": "door",
+      "style": "Interior door",
+      "offset": 0.2,
+      "width": 0.8,
+      "height": 2.05,
+      "sill": 0,
+      "flip": false,
+      "frame": 0.05,
+      "color": "#c4ac8c"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "90420356-8817-49d9-a087-f3fd42cf981e",
+      "name": "Sofa",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "type": "sofa",
+      "x": 2.5,
+      "z": 2,
+      "width": 2.1,
+      "depth": 0.9,
+      "height": 0.85,
+      "rotation": 0,
+      "color": "#80969a",
+      "material": "neutral-paint"
+    },
+    {
+      "id": "6ca2ed90-21e6-492c-b4f5-c905df22caaf",
+      "name": "Queen bed",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "type": "queen-bed",
+      "x": 6.75,
+      "z": 2,
+      "width": 1.52,
+      "depth": 2.03,
+      "height": 0.6,
+      "rotation": 0,
+      "color": "#7d9293",
+      "material": "neutral-paint"
+    },
+    {
+      "id": "7b679c23-478a-472b-9746-64cfbfa42b98",
+      "name": "Queen bed",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "type": "queen-bed",
+      "x": 6.75,
+      "z": 5.75,
+      "width": 1.52,
+      "depth": 2.03,
+      "height": 0.6,
+      "rotation": 0,
+      "color": "#80969a",
+      "material": "neutral-paint"
+    },
+    {
+      "id": "84a42f1c-1ad4-4fa1-b8ba-46a0742226c9",
+      "name": "Kitchen island",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "type": "island",
+      "x": 1.5,
+      "z": 5.75,
+      "width": 1.8,
+      "depth": 0.9,
+      "height": 0.9,
+      "rotation": 0,
+      "color": "#7d9293",
+      "material": "neutral-paint"
+    },
+    {
+      "id": "1330735f-00fd-4ce2-897b-d5254577a351",
+      "name": "Toilet",
+      "hidden": false,
+      "locked": false,
+      "level": "ground",
+      "type": "toilet",
+      "x": 4,
+      "z": 5.75,
+      "width": 0.4,
+      "depth": 0.7,
+      "height": 0.75,
+      "rotation": 0,
+      "color": "#80969a",
+      "material": "neutral-paint"
+    }
+  ],
+  "materials": [
+    {
+      "id": "light-wood",
+      "color": "#d4bc95",
+      "roughness": 0.72
+    },
+    {
+      "id": "dark-wood",
+      "color": "#69503b",
+      "roughness": 0.7
+    },
+    {
+      "id": "oak",
+      "color": "#b99362",
+      "roughness": 0.72
+    },
+    {
+      "id": "walnut",
+      "color": "#77543d",
+      "roughness": 0.68
+    },
+    {
+      "id": "marble",
+      "color": "#e3e5e7",
+      "roughness": 0.3
+    },
+    {
+      "id": "ceramic",
+      "color": "#c1cbd0",
+      "roughness": 0.35
+    },
+    {
+      "id": "concrete",
+      "color": "#a4a8ab",
+      "roughness": 0.95
+    },
+    {
+      "id": "carpet",
+      "color": "#8995a3",
+      "roughness": 1
+    },
+    {
+      "id": "vinyl",
+      "color": "#b9afa1",
+      "roughness": 0.6
+    },
+    {
+      "id": "laminate",
+      "color": "#c9b18e",
+      "roughness": 0.6
+    },
+    {
+      "id": "white-paint",
+      "color": "#f1f0ea",
+      "roughness": 0.85
+    },
+    {
+      "id": "neutral-paint",
+      "color": "#cbc6bd",
+      "roughness": 0.85
+    },
+    {
+      "id": "brick",
+      "color": "#a96d57",
+      "roughness": 0.95
+    },
+    {
+      "id": "wood-panel",
+      "color": "#a88561",
+      "roughness": 0.8
+    },
+    {
+      "id": "tile",
+      "color": "#d7e1df",
+      "roughness": 0.4
+    }
+  ],
+  "preferences": {
+    "grid": true,
+    "snap": true,
+    "gridSize": 0.25,
+    "dimensions": true
+  },
+  "camera": {
+    "preset": "Isometric",
+    "style": "Dollhouse"
+  }
+}

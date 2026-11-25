@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Native touch drag commits moved room geometry",
+    "Native two-finger pinch changes viewport"
+  ],
+  "errors": []
+}

@@ -4,3 +4,7 @@ out/
 .env*
 
 !.env.example
+
+# Local compiler and package-manager cache; audit evidence remains reviewable.
+*.tsbuildinfo
+.audit/npm-cache/

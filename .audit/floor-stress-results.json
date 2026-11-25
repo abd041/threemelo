@@ -1,0 +1,26 @@
+{
+  "rooms": 60,
+  "furniture": 250,
+  "runs": [
+    {
+      "validationMs": 14.271100000000004,
+      "geometryMs": 126.6323
+    },
+    {
+      "validationMs": 12.530599999999993,
+      "geometryMs": 83.35050000000001
+    },
+    {
+      "validationMs": 7.377900000000011,
+      "geometryMs": 68.89409999999998
+    },
+    {
+      "validationMs": 5.863800000000026,
+      "geometryMs": 75.46940000000001
+    },
+    {
+      "validationMs": 5.15809999999999,
+      "geometryMs": 59.80480000000006
+    }
+  ]
+}

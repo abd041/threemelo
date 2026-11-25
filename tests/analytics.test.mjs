@@ -213,11 +213,13 @@ test('noscript is withheld when static HTML cannot verify consent', () => {
 
 test('every programmatic tool download invokes the reusable tracker exactly once', () => {
   let downloadComponents = 0;
-  for (const file of readdirSync(new URL('../components/', import.meta.url)).filter(file => file.endsWith('.jsx'))) {
-    const source = read(`../components/${file}`);
+  const componentDirs = ['../components/', '../components/room/'];
+  const downloadFiles = [...componentDirs.flatMap(dir => readdirSync(new URL(dir, import.meta.url)).filter(file => file.endsWith('.jsx')).map(file => `${dir}${file}`)), '../lib/floor/exports.mjs'];
+  for (const file of downloadFiles) {
+    const source = read(file);
     if (!source.includes('a.download')) continue;
     downloadComponents++;
-    assert.match(source, /import \{trackDownload\} from '\.\.\/lib\/analytics\.mjs'/, file);
+    assert.match(source, /import \{[^}\r\n]*\btrackDownload\b[^}\r\n]*\} from '(?:\.\.\/)+(?:lib\/)?analytics\.mjs'/, file);
     assert.equal((source.match(/a\.click\(\)/g) || []).length, (source.match(/trackDownload\(a\.download\);a\.click\(\)/g) || []).length, file);
   }
   assert.equal(downloadComponents, 26);

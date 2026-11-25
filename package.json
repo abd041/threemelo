@@ -10,7 +10,8 @@
     "test": "node --test tests/*.test.mjs",
     "audit:seo": "python scripts/audit-seo.py",
     "lint": "eslint app components lib tests scripts",
-    "typecheck": "tsc -p tsconfig.registry.json",
+    "typecheck": "tsc -p tsconfig.registry.json && tsc -p tsconfig.floor.json && tsc -p tsconfig.json",
+    "test:floor:browser": "node scripts/floor-browser-audit.mjs",
     "test:browser": "node scripts/browser-audit.mjs"
   },
   "dependencies": {
@@ -29,6 +30,6 @@
     "@types/react-dom": "^19.3.0",
     "eslint": "^10.15.0",
     "lighthouse": "^13.6.0",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.3"
   }
 }

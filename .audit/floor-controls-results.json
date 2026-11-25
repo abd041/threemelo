@@ -1,0 +1,35 @@
+{
+  "checks": [
+    "Units and toggles preserve geometry",
+    "Hide, lock, rotate, duplicate and delete rooms",
+    "Resize and rotation handles",
+    "Custom walls and ruler create valid geometry",
+    "Furniture category search, dimensions, rotate and material swatches",
+    "Project rename, duplicate, open, delete and JSON backup",
+    "PDF scale, portrait, paper size and transparent PNG",
+    "Light/dark settled contrast and dialog focus"
+  ],
+  "browsers": [
+    {
+      "name": "Chrome",
+      "version": "158.0.8127.88",
+      "result": "2D add-room and 3D smoke passed"
+    },
+    {
+      "name": "Edge",
+      "version": "158.0.4370.33",
+      "result": "2D add-room and 3D smoke passed"
+    }
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "violations": []
+    }
+  ]
+}

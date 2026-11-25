@@ -12,7 +12,9 @@
     "lint": "eslint app components lib tests scripts",
     "typecheck": "tsc -p tsconfig.registry.json && tsc -p tsconfig.floor.json && tsc -p tsconfig.json",
     "test:floor:browser": "node scripts/floor-browser-audit.mjs",
-    "test:browser": "node scripts/browser-audit.mjs"
+    "test:browser": "node scripts/browser-audit.mjs",
+    "test:css:browser": "node scripts/css-studio-browser.mjs",
+    "test:gcode:browser": "node scripts/gcode-browser.mjs"
   },
   "dependencies": {
     "next": "^15.5.0",

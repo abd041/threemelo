@@ -1,0 +1,2 @@
+﻿import {firefox,webkit} from '@playwright/test';
+for(const [name,engine,executablePath] of [['Firefox',firefox,'D:/Abdullah/SAAS/threemelo/.audit/playwright/firefox-1572/firefox/firefox.exe'],['WebKit',webkit,'C:/Users/HP/AppData/Local/ms-playwright/webkit-2287/Playwright.exe']]){let b;try{b=await engine.launch({executablePath,headless:true});const p=await b.newPage();await p.goto('http://127.0.0.1:4183/3d-css-transform-generator/');console.log(name,await p.title());}catch(e){console.log(name,e.message)}finally{await b?.close();}}

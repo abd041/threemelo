@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "scope": "Supported G-code commands only; not a printer safety validation",
+  "sourceLines": 1028,
+  "parsedCommands": 936,
+  "unsupportedCommands": 0,
+  "malformedLines": 0,
+  "movements": 900,
+  "layerMode": "metadata",
+  "detectedLayers": 30,
+  "zRangeMm": [
+    0.20000000298023224,
+    6
+  ],
+  "modelDimensionsMm": [
+    30,
+    30,
+    5.8
+  ],
+  "motionBoundsMm": {
+    "min": [
+      0,
+      0,
+      0
+    ],
+    "max": [
+      60,
+      60,
+      6.5
+    ],
+    "size": [
+      60,
+      60,
+      6.5
+    ]
+  },
+  "extrusionPathMm": 11400,
+  "travelPathMm": 8373.271434368959,
+  "totalSupportedDistanceMm": 19773.271434369042,
+  "retractions": 30,
+  "estimatedMovementSeconds": 426.58564979308244,
+  "unknownFeedMoves": 0,
+  "reportedSlicerSeconds": null,
+  "supportedDwellSeconds": 0,
+  "filament": {
+    "lengthMm": 360.000000000002,
+    "volumeMm3": 865.9014751456914,
+    "weightGrams": 1.0737178291806573,
+    "diameterMm": 1.75,
+    "densityGcm3": 1.24
+  },
+  "toolCount": 1,
+  "outsideBuildVolume": 0,
+  "assumptions": {
+    "firmware": "marlin",
+    "arcToleranceMm": 0.1,
+    "filamentDiameterMm": 1.75,
+    "densityGcm3": 1.24,
+    "initialOrigin": "0,0,0",
+    "toolOffsets": "zero",
+    "timeExcludes": "Acceleration, heating, cooling, firmware delays and unsupported commands"
+  },
+  "warnings": []
+}

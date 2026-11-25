@@ -213,8 +213,8 @@ test('noscript is withheld when static HTML cannot verify consent', () => {
 
 test('every programmatic tool download invokes the reusable tracker exactly once', () => {
   let downloadComponents = 0;
-  const componentDirs = ['../components/', '../components/room/'];
-  const downloadFiles = [...componentDirs.flatMap(dir => readdirSync(new URL(dir, import.meta.url)).filter(file => file.endsWith('.jsx')).map(file => `${dir}${file}`)), '../lib/floor/exports.mjs'];
+  const componentDirs = ['../components/', '../components/room/', '../components/css-studio/'];
+  const downloadFiles = [...componentDirs.flatMap(dir => readdirSync(new URL(dir, import.meta.url)).filter(file => /\.(jsx|tsx)$/.test(file)).map(file => `${dir}${file}`)), '../lib/floor/exports.mjs'];
   for (const file of downloadFiles) {
     const source = read(file);
     if (!source.includes('a.download')) continue;

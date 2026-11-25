@@ -1,0 +1,341 @@
+{
+  "checks": [
+    "Control changes update preview and code; invalid numbers retain valid state",
+    "Numeric editing is one history entry, undo and redo work",
+    "Slider gesture is one history entry",
+    "Keyboard undo shortcuts and input editing do not conflict",
+    "Zero scaling, linked axes, translation units, origin and ordered transforms",
+    "Presets replace relevant state and integrate with history",
+    "Camera drag and zoom never change generated CSS; transform drag does",
+    "All five code tabs, actual clipboard content and keyboard tab navigation",
+    "Download HTML works in a new browser page without dependencies",
+    "Share URL and local restore round trip; corrupted storage and import are handled",
+    "Animation endpoints, pause, restart, hover and reduced motion",
+    "Fullscreen supports Escape and restores focus",
+    "Mobile tabs preserve state at every requested width, with no page overflow",
+    "Axe WCAG 2.2 AA checks in light and dark themes",
+    "Static metadata, schema, robots and canonical sitemap",
+    "Every local content link and social image resolves",
+    "Standalone exports render all shapes and presets with browser-valid CSS",
+    "Native Chromium touch drag updates transformation"
+  ],
+  "browsers": [
+    {
+      "name": "Chromium",
+      "version": "148.0.7778.96"
+    },
+    {
+      "name": "Firefox",
+      "version": "159.0",
+      "result": "passed",
+      "checks": "Control/code synchronization, six objects, seven widths, no console exceptions"
+    },
+    {
+      "name": "WebKit",
+      "version": "27.2",
+      "result": "passed",
+      "checks": "Control/code synchronization, six objects, seven widths, no console exceptions"
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "browser": "Firefox",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "browser": "Firefox",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "browser": "Firefox",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "browser": "Firefox",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "browser": "Firefox",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "browser": "Firefox",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "browser": "Firefox",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "browser": "WebKit",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "browser": "WebKit",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "exports": [
+    {
+      "shape": "cube",
+      "mode": "static",
+      "transform": "matrix3d(0.866025, -0.211309, 0.453154, 0, 0, 0.906308, 0.422618, 0, -0.5, -0.365998, 0.784886, 0, 0, 0, 0, 1)",
+      "width": "150px",
+      "style": "preserve-3d",
+      "animation": "none"
+    },
+    {
+      "shape": "card",
+      "mode": "static",
+      "transform": "matrix3d(0.866025, -0.211309, 0.453154, 0, 0, 0.906308, 0.422618, 0, -0.5, -0.365998, 0.784886, 0, 0, 0, 0, 1)",
+      "width": "150px",
+      "style": "preserve-3d",
+      "animation": "none"
+    },
+    {
+      "shape": "layers",
+      "mode": "static",
+      "transform": "matrix3d(0.866025, -0.211309, 0.453154, 0, 0, 0.906308, 0.422618, 0, -0.5, -0.365998, 0.784886, 0, 0, 0, 0, 1)",
+      "width": "150px",
+      "style": "preserve-3d",
+      "animation": "none"
+    },
+    {
+      "shape": "text",
+      "mode": "static",
+      "transform": "matrix3d(0.866025, -0.211309, 0.453154, 0, 0, 0.906308, 0.422618, 0, -0.5, -0.365998, 0.784886, 0, 0, 0, 0, 1)",
+      "width": "150px",
+      "style": "preserve-3d",
+      "animation": "none"
+    },
+    {
+      "shape": "browser",
+      "mode": "static",
+      "transform": "matrix3d(0.866025, -0.211309, 0.453154, 0, 0, 0.906308, 0.422618, 0, -0.5, -0.365998, 0.784886, 0, 0, 0, 0, 1)",
+      "width": "150px",
+      "style": "preserve-3d",
+      "animation": "none"
+    },
+    {
+      "shape": "book",
+      "mode": "static",
+      "transform": "matrix3d(0.866025, -0.211309, 0.453154, 0, 0, 0.906308, 0.422618, 0, -0.5, -0.365998, 0.784886, 0, 0, 0, 0, 1)",
+      "width": "150px",
+      "style": "preserve-3d",
+      "animation": "none"
+    },
+    {
+      "shape": "cube",
+      "mode": "keyframes",
+      "transform": "matrix3d(1, 0, 0, 0, 0, 0.906308, 0.422618, 0, 0, -0.422618, 0.906308, 0, 0, 0, 0, 1)",
+      "width": "150px",
+      "style": "preserve-3d",
+      "animation": "tm-motion"
+    },
+    {
+      "shape": "card",
+      "mode": "keyframes",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": "240px",
+      "style": "preserve-3d",
+      "animation": "tm-motion"
+    },
+    {
+      "shape": "card",
+      "mode": "keyframes",
+      "transform": "matrix3d(0.965926, -0.0538115, 0.253163, 0, 0, 0.978148, 0.207912, 0, -0.258819, -0.200827, 0.944818, 0, 0, 0, 0, 1)",
+      "width": "240px",
+      "style": "preserve-3d",
+      "animation": "tm-motion"
+    },
+    {
+      "shape": "card",
+      "mode": "keyframes",
+      "transform": "matrix3d(0.990268, 0.0193692, 0.137819, 0, 0, 0.990268, -0.139173, 0, -0.139173, 0.137819, 0.980631, 0, 0, 0, 0, 1)",
+      "width": "240px",
+      "style": "preserve-3d",
+      "animation": "tm-motion"
+    },
+    {
+      "shape": "book",
+      "mode": "keyframes",
+      "transform": "matrix(0.965934, -0.258789, 0.258789, 0.965934, 0, 0)",
+      "width": "160px",
+      "style": "preserve-3d",
+      "animation": "tm-motion"
+    },
+    {
+      "shape": "card",
+      "mode": "hover",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": "240px",
+      "style": "preserve-3d",
+      "animation": "none"
+    },
+    {
+      "shape": "card",
+      "mode": "keyframes",
+      "transform": "matrix3d(0.6, 0, 0, 0, 0, 0.385673, 0.459627, 0, 0, -0.459627, 0.385673, 0, 0, 0, -200, 1)",
+      "width": "240px",
+      "style": "preserve-3d",
+      "animation": "tm-motion"
+    },
+    {
+      "shape": "browser",
+      "mode": "keyframes",
+      "transform": "matrix3d(0, 0, 1, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 0, 1)",
+      "width": "240px",
+      "style": "preserve-3d",
+      "animation": "tm-motion"
+    }
+  ],
+  "seo": {
+    "status": 200,
+    "h1": 1,
+    "canonical": "https://threemelo.com/3d-css-transform-generator/",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "@id": "https://threemelo.com/3d-css-transform-generator/#app",
+            "name": "ThreeMelo 3D CSS Transform Generator",
+            "description": "Generate CSS 3D transforms with live previews. Customize rotation, perspective, scale, translation and animations. Copy ready-to-use CSS, HTML and React code.",
+            "url": "https://threemelo.com/3d-css-transform-generator/",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Any",
+            "browserRequirements": "A modern browser with JavaScript and CSS 3D transforms enabled",
+            "isAccessibleForFree": true,
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://threemelo.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Creative & developer tools",
+                "item": "https://threemelo.com/tools/#creative-and-developer-tools"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "3D CSS Transform Generator",
+                "item": "https://threemelo.com/3d-css-transform-generator/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://threemelo.com/#organization",
+        "name": "ThreeMelo",
+        "url": "https://threemelo.com/",
+        "logo": "https://threemelo.com/brand-mark.svg",
+        "email": "everydaytools.pro@gmail.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "everydaytools.pro@gmail.com",
+          "url": "https://threemelo.com/contact/",
+          "availableLanguage": "English"
+        }
+      }
+    ],
+    "localLinks": [
+      "/",
+      "/tools/#creative-and-developer-tools",
+      "/3d-text-generator/",
+      "/contact/",
+      "/3d-logo-generator/",
+      "/3d-model-viewer/",
+      "/3d-graphing-calculator/"
+    ]
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "scope": "Production export served over local HTTP; live hosting not verified",
+  "sitemap_urls": 36,
+  "published_tools": 30,
+  "core_pages": 6,
+  "duplicate_urls": 0,
+  "broken_urls": 0,
+  "canonical_mismatches": 0,
+  "orphan_pages": 0,
+  "noindex_pages": 0,
+  "robots_valid": true,
+  "xml_valid": true,
+  "xml_namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
+  "rendering_assets_checked": 56,
+  "errors": [],
+  "pages": [
+    {
+      "url": "https://threemelo.com/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free Online 3D Tools, Viewers & Generators | ThreeMelo",
+      "description": [
+        "Explore 30 free online 3D tools to view, convert and create 3D models, mockups and printable designs. No sign-up or software installation required."
+      ],
+      "main_text_characters": 9739
+    },
+    {
+      "url": "https://threemelo.com/tools/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/tools/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/tools/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free Online 3D Tools – All 30 Utilities | ThreeMelo",
+      "description": [
+        "Browse 30 free browser-based 3D viewers, converters, mockup generators, printing utilities and design planners."
+      ],
+      "main_text_characters": 4141
+    },
+    {
+      "url": "https://threemelo.com/about/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/about/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/about/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "About | ThreeMelo",
+      "description": [
+        "Learn about ThreeMelo’s free browser-based 3D tools, local processing and intended uses."
+      ],
+      "main_text_characters": 797
+    },
+    {
+      "url": "https://threemelo.com/privacy/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/privacy/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/privacy/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Privacy Policy | ThreeMelo",
+      "description": [
+        "How ThreeMelo handles local files, consent, Google Tag Manager and hosting logs. Analytics storage stays denied until you allow it."
+      ],
+      "main_text_characters": 2795
+    },
+    {
+      "url": "https://threemelo.com/terms/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/terms/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/terms/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Terms of Use | ThreeMelo",
+      "description": [
+        "Read the terms for using ThreeMelo’s free browser-based 3D tools and exported files."
+      ],
+      "main_text_characters": 423
+    },
+    {
+      "url": "https://threemelo.com/contact/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/contact/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/contact/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Contact ThreeMelo — Support, Feedback and Inquiries",
+      "description": [
+        "Email everydaytools.pro@gmail.com for ThreeMelo support, bug reports, tool ideas, and business or privacy questions. You send the message from your own email app."
+      ],
+      "main_text_characters": 3079
+    },
+    {
+      "url": "https://threemelo.com/3d-floor-plan-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-floor-plan-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-floor-plan-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free 3D Floor Plan Generator – Online Floor Plan Maker",
+      "description": [
+        "Create free 2D and 3D floor plans online. Draw rooms, add furniture, doors and windows, customize dimensions and export your design without signing up."
+      ],
+      "main_text_characters": 11584
+    },
+    {
+      "url": "https://threemelo.com/3d-room-planner/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-room-planner/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-room-planner/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free 3D Room Planner Online – Design Your Room | ThreeMelo",
+      "description": [
+        "Design your room online with our free 3D room planner. Arrange furniture, customize dimensions and colors, and export your layout. No signup required."
+      ],
+      "main_text_characters": 12460
+    },
+    {
+      "url": "https://threemelo.com/3d-css-transform-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-css-transform-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-css-transform-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D CSS Transform Generator – Free Live CSS Playground | ThreeMelo",
+      "description": [
+        "Generate CSS 3D transforms with live previews. Customize rotation, perspective, scale, translation and animations. Copy ready-to-use CSS, HTML and React code."
+      ],
+      "main_text_characters": 19159
+    },
+    {
+      "url": "https://threemelo.com/gcode-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/gcode-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/gcode-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "G-Code Viewer – Free Online 3D Printing Toolpath Viewer | ThreeMelo",
+      "description": [
+        "Open G-code files locally, explore extrusion and travel paths, inspect Z levels and estimate linear move time in your browser."
+      ],
+      "main_text_characters": 2360
+    },
+    {
+      "url": "https://threemelo.com/3d-graphing-calculator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-graphing-calculator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-graphing-calculator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Graphing Calculator – Free Online Surface Plotter | ThreeMelo",
+      "description": [
+        "Plot z=f(x,y) equations and parametric surfaces online. Rotate, zoom, adjust domains and download a PNG of your 3D graph."
+      ],
+      "main_text_characters": 2602
+    },
+    {
+      "url": "https://threemelo.com/3d-vase-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-vase-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-vase-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Vase Generator – Free Custom Vase STL Maker | ThreeMelo",
+      "description": [
+        "Design a hollow 3D vase with custom height, diameter, ribs, spiral twist and wall thickness. Preview and download STL locally."
+      ],
+      "main_text_characters": 2777
+    },
+    {
+      "url": "https://threemelo.com/lithophane-maker/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/lithophane-maker/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/lithophane-maker/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Lithophane Maker – Free Photo to STL Generator | ThreeMelo",
+      "description": [
+        "Turn a photo into a flat or curved lithophane STL. Adjust thickness, size and curvature, preview in 3D and download locally."
+      ],
+      "main_text_characters": 2641
+    },
+    {
+      "url": "https://threemelo.com/3d-cookie-cutter-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-cookie-cutter-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-cookie-cutter-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Cookie Cutter Generator – Free Custom STL Maker | ThreeMelo",
+      "description": [
+        "Create custom cookie cutter STL files online. Choose a shape or upload an SVG outline, adjust wall thickness and cutting height, and preview your model."
+      ],
+      "main_text_characters": 2694
+    },
+    {
+      "url": "https://threemelo.com/3d-nameplate-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-nameplate-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-nameplate-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Nameplate Generator – Custom Desk Nameplate STL Free | ThreeMelo",
+      "description": [
+        "Create a personalized 3D nameplate with custom text, dimensions, stand and raised lettering. Preview your design and download STL, GLB or PNG locally."
+      ],
+      "main_text_characters": 2661
+    },
+    {
+      "url": "https://threemelo.com/3d-keychain-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-keychain-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-keychain-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Keychain Generator – Custom Name Keychain STL Free | ThreeMelo",
+      "description": [
+        "Create a personalized 3D keychain with custom text, shape, dimensions and ring hole. Preview your design and download STL, GLB or PNG locally."
+      ],
+      "main_text_characters": 2653
+    },
+    {
+      "url": "https://threemelo.com/3d-text-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-text-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-text-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Text Generator – Create & Download 3D Text Online Free | ThreeMelo",
+      "description": [
+        "Create custom 3D text online with fonts, extrusion, bevels, colors and lighting. Download PNG, JPG, STL, OBJ or GLB without signing up."
+      ],
+      "main_text_characters": 2754
+    },
+    {
+      "url": "https://threemelo.com/3d-logo-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-logo-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-logo-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Logo Generator – Turn SVG Into 3D Online Free | ThreeMelo",
+      "description": [
+        "Turn your SVG logo into an extruded 3D design. Customize depth, bevel, metallic colors and lighting, then download PNG or 3D models locally."
+      ],
+      "main_text_characters": 2371
+    },
+    {
+      "url": "https://threemelo.com/book-cover-mockup-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/book-cover-mockup-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/book-cover-mockup-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Book Cover Mockup Generator – Free Online | ThreeMelo",
+      "description": [
+        "Create paperback and hardcover book mockups with your own front, back and spine artwork. Customize the 3D view and download PNG images for free."
+      ],
+      "main_text_characters": 2671
+    },
+    {
+      "url": "https://threemelo.com/box-mockup-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/box-mockup-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/box-mockup-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free 3D Box Mockup Generator – Packaging Mockups Online | ThreeMelo",
+      "description": [
+        "Create a custom 3D packaging box mockup with artwork on all six faces, adjustable dimensions, lighting and free PNG or GLB downloads."
+      ],
+      "main_text_characters": 2839
+    },
+    {
+      "url": "https://threemelo.com/bottle-mockup-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/bottle-mockup-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/bottle-mockup-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free 3D Bottle Mockup Generator – Create Bottle Designs Online | ThreeMelo",
+      "description": [
+        "Wrap your artwork around a customizable 3D bottle. Adjust colors, dimensions, lighting and camera, then download PNG or GLB locally."
+      ],
+      "main_text_characters": 2573
+    },
+    {
+      "url": "https://threemelo.com/t-shirt-mockup-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/t-shirt-mockup-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/t-shirt-mockup-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free 3D T-Shirt Mockup Generator – Front & Back Designs | ThreeMelo",
+      "description": [
+        "Create a free 3D T-shirt mockup with your own front and back artwork. Adjust print placement, shirt colors and lighting. Download PNG or GLB privately."
+      ],
+      "main_text_characters": 2489
+    },
+    {
+      "url": "https://threemelo.com/mug-mockup-generator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/mug-mockup-generator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/mug-mockup-generator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "Free 3D Mug Mockup Generator – Create Mug Designs Online | ThreeMelo",
+      "description": [
+        "Wrap your artwork around a customizable 3D mug. Adjust colors, dimensions, lighting and camera, then download PNG or GLB locally."
+      ],
+      "main_text_characters": 2415
+    },
+    {
+      "url": "https://threemelo.com/3d-model-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-model-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-model-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Model Viewer – Open 3D Files Online Free | ThreeMelo",
+      "description": [
+        "View STL, OBJ, GLB, glTF and FBX models online. Inspect dimensions, rotate, measure and export static 3D meshes locally."
+      ],
+      "main_text_characters": 3431
+    },
+    {
+      "url": "https://threemelo.com/3d-printing-cost-calculator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/3d-printing-cost-calculator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/3d-printing-cost-calculator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "3D Printing Cost Calculator – Filament & Print Price | ThreeMelo",
+      "description": [
+        "Estimate 3D printing costs from filament weight, print time, electricity, machine wear and labor. Calculate selling prices and export a CSV for free."
+      ],
+      "main_text_characters": 3769
+    },
+    {
+      "url": "https://threemelo.com/stl-volume-calculator/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/stl-volume-calculator/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/stl-volume-calculator/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "STL Volume Calculator – Mesh Volume & Surface Area | ThreeMelo",
+      "description": [
+        "Calculate STL volume, surface area, dimensions and solid material weight online. Inspect binary or ASCII STL meshes privately in your browser."
+      ],
+      "main_text_characters": 2701
+    },
+    {
+      "url": "https://threemelo.com/stl-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/stl-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/stl-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "STL Viewer – View STL Files Online Free | ThreeMelo",
+      "description": [
+        "Open binary and ASCII STL files online. Inspect 3D models, measure distances, check dimensions and export PNG, OBJ, STL or GLB. No upload required."
+      ],
+      "main_text_characters": 3980
+    },
+    {
+      "url": "https://threemelo.com/obj-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/obj-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/obj-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "OBJ Viewer – Free Online | ThreeMelo",
+      "description": [
+        "Open OBJ models online with optional MTL materials and local textures. Inspect geometry, measure distances and export models privately."
+      ],
+      "main_text_characters": 2964
+    },
+    {
+      "url": "https://threemelo.com/glb-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/glb-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/glb-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "GLB Viewer – Free Online | ThreeMelo",
+      "description": [
+        "Open GLB files online with embedded materials. Inspect static 3D meshes, measure distances and export models privately."
+      ],
+      "main_text_characters": 2833
+    },
+    {
+      "url": "https://threemelo.com/gltf-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/gltf-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/gltf-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "GLTF Viewer – Open glTF Files Online Free | ThreeMelo",
+      "description": [
+        "View glTF 2.0 files with local BIN buffers and textures. Rotate, measure and export static 3D models in your browser."
+      ],
+      "main_text_characters": 2899
+    },
+    {
+      "url": "https://threemelo.com/fbx-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/fbx-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/fbx-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "FBX Viewer – View FBX Files Online Free | ThreeMelo",
+      "description": [
+        "Open static FBX models and local textures in your browser. Rotate, inspect, measure and export 3D geometry without uploading files."
+      ],
+      "main_text_characters": 2908
+    },
+    {
+      "url": "https://threemelo.com/glb-to-stl/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/glb-to-stl/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/glb-to-stl/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "GLB to STL Converter – Free Online 3D Conversion | ThreeMelo",
+      "description": [
+        "Convert static GLB models to binary or ASCII STL online. Preview your mesh, choose output units and scale, and download privately."
+      ],
+      "main_text_characters": 2279
+    },
+    {
+      "url": "https://threemelo.com/stl-to-obj/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/stl-to-obj/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/stl-to-obj/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "STL to OBJ Converter – Free Online | ThreeMelo",
+      "description": [
+        "Convert binary or ASCII STL files to OBJ online. Preserve triangle geometry, optionally merge identical vertices and download privately without uploading."
+      ],
+      "main_text_characters": 2154
+    },
+    {
+      "url": "https://threemelo.com/svg-to-stl/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/svg-to-stl/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/svg-to-stl/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "SVG to STL Converter – Free Online 3D Extrusion | ThreeMelo",
+      "description": [
+        "Convert filled SVG outlines into STL models online. Set dimensions in millimeters, preview your extrusion and download binary or ASCII STL privately."
+      ],
+      "main_text_characters": 2695
+    },
+    {
+      "url": "https://threemelo.com/obj-to-stl/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/obj-to-stl/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/obj-to-stl/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "OBJ to STL Converter – Free Online | ThreeMelo",
+      "description": [
+        "Convert Wavefront OBJ models to binary or ASCII STL locally in your browser. Choose scale and download without registration."
+      ],
+      "main_text_characters": 2266
+    },
+    {
+      "url": "https://threemelo.com/360-image-viewer/",
+      "http_status": 200,
+      "canonical": [
+        "https://threemelo.com/360-image-viewer/"
+      ],
+      "open_graph_url": [
+        "https://threemelo.com/360-image-viewer/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "title": "360° Image Viewer – Free Online | ThreeMelo",
+      "description": [
+        "View 360-degree panoramic JPG, PNG and WebP photos online. Explore perspective, fisheye and little planet projections without uploading your images."
+      ],
+      "main_text_characters": 2370
+    }
+  ]
+}

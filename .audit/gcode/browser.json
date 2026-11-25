@@ -1,0 +1,58 @@
+{
+  "checks": [
+    "Empty state and production metadata",
+    "Worker loads all examples; 3D canvas renders",
+    "Layer, color, camera and category controls",
+    "Playback starts, pauses and restarts",
+    "Worker source search, navigation and clipboard",
+    "JSON, CSV, summary and real PNG exports",
+    "2D view, screenshot and reprocessing",
+    "Local file validation and recovery",
+    "Fullscreen restores the workspace",
+    "Responsive layout without horizontal overflow",
+    "Accessible loaded viewer in light and dark themes",
+    "WebGL context loss switches to independent 2D renderer",
+    "Cancel, reload and reset discard the current file"
+  ],
+  "errors": [],
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "violations": []
+    }
+  ]
+}

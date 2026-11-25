@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThreeMelo CSS 3D example</title>
+<style>
+body { margin: 0; }
+.tm-scene { display: grid; place-items: center; min-height: 420px; padding: 48px; background: #101624; overflow: clip; }
+.tm-object { position: relative; width: 150px; height: 150px; font-family: system-ui, sans-serif; }
+.tm-face { backface-visibility: visible; }
+.tm-object *, .tm-object *::before { box-sizing: border-box; }
+.tm-face { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 12px; overflow-wrap: anywhere; text-align: center; border: 1px solid #c4b5fd; border-radius: 0px; background: #7c3aed; color: #ffffff; font-size: 14px; font-weight: 600;  }
+.tm-front { transform: translateZ(0.1px); }
+.tm-back { background: #43317d; color: #ffffff; transform: rotateY(180deg) translateZ(0.1px); }
+.tm-object[data-shape="cube"] .tm-front, .tm-object[data-shape="book"] .tm-front { transform: translateZ(75px); }
+.tm-object[data-shape="cube"] .tm-back, .tm-object[data-shape="book"] .tm-back { transform: rotateY(180deg) translateZ(75px); }
+.tm-right, .tm-left { inset: auto; top: 0; left: 0px; width: 150px; height: 150px; background: #43317d; color: #ffffff; }
+.tm-right { transform: rotateY(90deg) translateZ(75px); }
+.tm-left { transform: rotateY(-90deg) translateZ(75px); }
+.tm-top, .tm-bottom { inset: auto; top: 0px; left: 0; width: 150px; height: 150px; }
+.tm-top { transform: rotateX(90deg) translateZ(75px); }
+.tm-bottom { transform: rotateX(-90deg) translateZ(75px); background: #43317d; color: #ffffff; }
+.tm-object[data-shape="book"] .tm-right, .tm-object[data-shape="book"] .tm-top, .tm-object[data-shape="book"] .tm-bottom { background: repeating-linear-gradient(0deg,#fff 0 2px,#ddd 2px 3px); color: #242424; }
+.tm-surface { gap: 16px; align-items: flex-start; text-align: left; padding: 20px; }
+.tm-title { font-size: 18.75px; line-height: 1.2; }
+.tm-eyebrow { font-size: 10px; letter-spacing: .08em; }
+.tm-caption { font-size: 12px; font-weight: 400; }
+.tm-browser-bar { align-self: stretch; border-bottom: 1px solid currentColor; padding-bottom: 12px; font: 10px monospace; }
+.tm-panel { gap: 12px; align-items: flex-start; text-align: left; }
+.tm-panel-0 { transform: translateZ(-75px); background: #43317d; color: #ffffff; }
+.tm-panel-1 { transform: translateZ(0); }
+.tm-panel-2 { transform: translateZ(75px); }
+.tm-skeleton { width: 85%; height: 8px; border-radius: 4px; background: currentColor; opacity: .3; }
+.tm-short { width: 55%; }
+.tm-text-layer { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; overflow-wrap: anywhere; font-size: 37.5px; font-weight: 900; line-height: 1.1; color: #43317d; backface-visibility: visible; }
+.tm-text-0 { transform: translateZ(0px);  }
+.tm-text-1 { transform: translateZ(18.75px);  }
+.tm-text-2 { transform: translateZ(37.5px);  }
+.tm-text-3 { transform: translateZ(56.25px);  }
+.tm-text-4 { transform: translateZ(75px);  }
+.tm-text-5 { transform: translateZ(93.75px);  }
+.tm-text-6 { transform: translateZ(112.5px);  }
+.tm-text-7 { transform: translateZ(131.25px);  }
+.tm-text-8 { transform: translateZ(150px); color: #7c3aed; }
+.tm-scene {
+  perspective: 700px;
+  perspective-origin: 50% 50%;
+}
+.tm-object {
+  transform: translate3d(0px, 0px, 0px) rotateX(25deg) rotateY(-30deg) rotateZ(0deg) scale3d(1, 1, 1) skew(0deg, 0deg);
+  transform-origin: 50% 50% 0px;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+}
+.tm-face { backface-visibility: visible; }
+
+</style>
+</head>
+<body>
+<div class="tm-scene" tabindex="0" role="img" aria-label="Interactive CSS 3D cube; hover or focus to animate">
+<div class="tm-object" data-shape="cube">
+<div class="tm-face tm-front">ThreeMelo</div>
+<div class="tm-face tm-back">BACK</div>
+<div class="tm-face tm-right">RIGHT</div>
+<div class="tm-face tm-left">LEFT</div>
+<div class="tm-face tm-top">TOP</div>
+<div class="tm-face tm-bottom">BOTTOM</div>
+</div>
+</div>
+</body>
+</html>

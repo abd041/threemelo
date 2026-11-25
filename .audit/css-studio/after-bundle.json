@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/_next/static/chunks/4bd1b696-f785427dddbba9fb.js",
+    "bytes": 173020,
+    "gzip": 54359
+  },
+  {
+    "path": "/_next/static/chunks/1255-925cc58e720b4caf.js",
+    "bytes": 174421,
+    "gzip": 46832
+  },
+  {
+    "path": "/_next/static/chunks/main-app-7fb169874ff740af.js",
+    "bytes": 560,
+    "gzip": 227
+  },
+  {
+    "path": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "bytes": 112594,
+    "gzip": 39627
+  },
+  {
+    "path": "/_next/static/chunks/webpack-985511ba30167364.js",
+    "bytes": 4692,
+    "gzip": 2602
+  }
+]

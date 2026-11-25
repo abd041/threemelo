@@ -1,0 +1,2 @@
+﻿import {chromium} from '@playwright/test';
+const b=await chromium.launch({executablePath:'C:/Users/HP/AppData/Local/ms-playwright/chromium-1223/chrome-win64/chrome.exe'});const p=await b.newPage({viewport:{width:1440,height:1000}});p.on('console',m=>{if(m.type()==='error')console.log(m.text())});p.on('pageerror',e=>console.log(e.message));await p.goto('http://127.0.0.1:4183/3d-css-transform-generator/');await p.waitForTimeout(2000);await b.close();
